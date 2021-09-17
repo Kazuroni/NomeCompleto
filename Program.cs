@@ -20,7 +20,7 @@ namespace aula_entrada
             
             Console.WriteLine($"Obrigado, {NomeCompleto}! Presione uma tecla para continuar...");
             Console.ReadKey();
-            Console.WriteLine($"Nome de catalogo...: {SobreNome.ToUpper()} {NomeDoUsuario}");
+            Console.WriteLine($"Nome de catalogo...: {SobreNome.ToUpper()}, {NomeDoUsuario}");
             Console.WriteLine("enter para finalizar o programa!");
             Console.ReadKey();
         }
